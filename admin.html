@@ -39,12 +39,33 @@
     <div class="container">
       <div class="container">
         <h2 class="lead">Login Admin</h2>
-        <form class="form-control" id="form_id" method="post" name="myform">
-          <label>User Name :</label>
-          <input type="text" name="username" id="username" />
-          <label>Password :</label>
-          <input type="password" name="password" id="password" />
-          <input type="button" value="Login" id="submit" onclick="validate()" />
+        <form
+          class="form-control mb-2"
+          id="form_id"
+          method="post"
+          name="myform"
+        >
+          <label class="form-label mb-2">User Name :</label>
+          <input
+            type="text"
+            name="username"
+            id="username"
+            placeholder="masukkan username"
+          />
+          <label class="form-label">Password :</label>
+          <input
+            type="password"
+            name="password"
+            id="password"
+            placeholder="masukkan password"
+          />
+          <input
+            class="btn"
+            type="button"
+            value="Login"
+            id="submit"
+            onclick="validate()"
+          />
         </form>
       </div>
     </div>
