@@ -26,7 +26,8 @@
 
     <!-- CSS Stylesheets -->
     <link rel="stylesheet" href="css/checkout.css" />
-
+    <!-- javascript -->
+    <script src="js/index.js"></script>
     <title>Checkout Form</title>
   </head>
   <body class="bg-light">
@@ -46,10 +47,17 @@
     <!-- form -->
     <div class="container">
       <h4 class="mb-3">Billing Addres</h4>
-      <form name="form1" class="form-control" action="proses.php" method="post">
+      <form
+        name="form1"
+        class="form-control needs-validation"
+        action="proses.php"
+        method="post"
+      >
         <div class="row g-3">
           <div class="col-sm-6">
-            <label for="Nama Depan" class="form-label mt-2">Nama Depan</label>
+            <label for="Nama Depan" class="form-label mt-2" required
+              >Nama Depan</label
+            >
             <input
               type="text"
               name="NamaDPN"
@@ -57,6 +65,7 @@
               class="form-control"
               placeholder="Nama Depan"
             />
+            <div class="invalid-feedback">Masukkan nama dengan benar.</div>
           </div>
           <div class="col-sm-6">
             <label for="Nama Belakang" class="form-label mt-2"

@@ -52,7 +52,7 @@
                 </a>
             </div>
             <div class="col-lg-12 mt-2">
-                <a href="list.php">
+                <a href="admin.html">
                     <button class="btn btn-outline-secondary">LIHAT DATA PESANAN</button>
                 </a>
             </div>
