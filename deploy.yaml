@@ -1,0 +1,28 @@
+steps:
+  # Build the container image
+  - name: 'gcr.io/cloud-builders/docker'
+    args: ['build', '-t', 'gcr.io/crm-001-cicd/testing-masud', '.']
+
+  # Push the container image to Container Registry
+  - name: 'gcr.io/cloud-builders/docker'
+    args: ['push', 'gcr.io/crm-001-cicd/testing-masud']
+
+  # Deploy container image to Cloud Run
+  - name: 'gcr.io/google.com/cloudsdktool/cloud-sdk'
+    entrypoint: gcloud
+    args:
+      [
+        'run',
+        'deploy',
+        'onlylaundry',
+        '--image',
+        'gcr.io/crm-001-cicd/testing-masud',
+        '--region',
+        'asia-southeast1',
+        '--port',
+        '80',
+        '--allow-unauthenticated'
+      ]
+images:
+  - gcr.io/crm-001-cicd/testing-masud
+timeout: 2500s
