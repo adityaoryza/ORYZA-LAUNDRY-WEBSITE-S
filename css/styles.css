@@ -21,7 +21,7 @@ p {
 
 .big-heading {
   font-family: "Montserrat-Black";
-  font-size: 1rem;
+  font-size: 3.5rem;
   line-height: 1.5;
 }
 
@@ -125,8 +125,8 @@ p {
 }
 
 .testimonial-text {
-  font-size: 1rem;
-  line-height: 1;
+  font-size: 3rem;
+  line-height: 1.5;
 }
 
 .testimonial-image {
@@ -170,7 +170,6 @@ p {
 
 @media (max-width: 1028px) {
   #title {
-    font-size: 1.5rem;
     text-align: center;
   }
 
