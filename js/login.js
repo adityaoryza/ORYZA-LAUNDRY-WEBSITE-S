@@ -5,8 +5,7 @@ function validate() {
   var password = document.getElementById("password").value;
   if (username == "aditya" && password == "oryza123") {
     alert("LOGIN BERHASIL!");
-    // window.location.replace("index.html");
-    window.location.href = "list.php"; // Redirecting to other page.
+    window.location.href = "list.php";
     return false;
   } else {
     attempt--; // Decrementing by one.
@@ -20,4 +19,3 @@ function validate() {
     }
   }
 }
-Copy;
