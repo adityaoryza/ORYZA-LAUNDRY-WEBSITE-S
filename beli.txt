@@ -1,3 +1,6 @@
 oryza|mahendra|cilacap|081215996789|Kiloan
 oryza|mahendra|solo|08912212132323|On Demand
 nex|ksmsdq|jakarta|082121212|Dry Laundry
+oryza|adit|yogyakarta|0821212|Kiloan
+oryza|adit|yogyakarta|0821212|Kiloan
+aditya|mahendraa|cilacap|08121291291|On Demand

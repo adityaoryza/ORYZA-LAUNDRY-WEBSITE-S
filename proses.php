@@ -51,11 +51,6 @@
                     <button class="btn btn-outline-secondary">PESAN LAGI</button>
                 </a>
             </div>
-            <div class="col-lg-12 mt-2">
-                <a href="admin.html">
-                    <button class="btn btn-outline-secondary">LIHAT DATA PESANAN</button>
-                </a>
-            </div>
         </div>
     </div>
 
